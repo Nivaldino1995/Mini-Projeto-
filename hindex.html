@@ -1,0 +1,57 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 2 - Demo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Atividade 2: Sessions, Cookies e Segurança</h1>
+
+    <div class="container">
+        <h2>1. Session Storage (Armazenamento da Sessão)</h2>
+        <p>
+            Dados salvos aqui <strong>só duram enquanto a aba estiver aberta</strong>.
+            Feche a aba e os dados desaparecem.
+        </p>
+        <input type="text" id="sessionInput" placeholder="Digite um dado para a sessão">
+        <button id="salvarSession">Salvar na Sessão</button>
+        <button id="carregarSession">Carregar da Sessão</button>
+    </div>
+
+    <div class="container">
+        <h2>2. Cookies</h2>
+        <p>
+            Dados salvos aqui <strong>são persistentes</strong> (até a data de expiração).
+            Podem ser lidos pelo servidor.
+        </p>
+        <input type="text" id="cookieInput" placeholder="Digite um dado para o cookie">
+        <button id="criarCookie">Criar Cookie (dura 1 dia)</button>
+        <button id="lerCookie">Ler Cookie</button>
+        <button id="apagarCookie">Apagar Cookie</button>
+    </div>
+
+    <div class="container">
+        <h2>3. Segurança: Validação de Formulário</h2>
+        <form id="loginForm">
+            <label for="username">Usuário:</label>
+            <input type="text" id="username" name="username">
+            
+            <label for="password">Senha:</label>
+            <input type="password" id="password" name="password">
+            
+            <button type="submit">Login</button>
+        </form>
+    </div>
+
+    <div id="feedback-area">
+        <h3>Feedback:</h3>
+        <p id="feedback">...</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -7,4 +7,4 @@ Estou focado em construir uma base sólida em programação e engenharia de soft
 
 * 📚 Cursando: Engenharia de Computação (UFSC)
 * 💻 Cursando: Jovem Programador (Senac)
-* 🌱 Aprendendo: C++, Java, JavaScript, Álgebra Linear e Cálculo Vetorial.
+* 🌱 Aprendendo: C++, Java e JavaScript.
